@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "feira-nova-20";
+  src:url("../fonts/feira-nova-20.eot");
+  src:url("../fonts/feira-nova-20.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/feira-nova-20.woff") format("woff"),
+    url("../fonts/feira-nova-20.ttf") format("truetype"),
+    url("../fonts/feira-nova-20.svg#feira-nova-20") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "feira-nova-20" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "feira-nova-20" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\61";
+}
+.icon-user:before {
+  content: "\62";
+}
+.icon-magnifier:before {
+  content: "\64";
+}
+.icon-layers:before {
+  content: "\65";
+}
+.icon-list:before {
+  content: "\66";
+}
+.icon-home:before {
+  content: "\6b";
+}
+.icon-arrow-left:before {
+  content: "\6f";
+}
+.icon-arrow-right:before {
+  content: "\70";
+}
+.icon-shopping-list:before {
+  content: "\68";
+}
+.icon-quick-offer:before {
+  content: "\67";
+}
+.icon-organic:before {
+  content: "\69";
+}
+.icon-no-sugar:before {
+  content: "\72";
+}
+.icon-no-lactose:before {
+  content: "\73";
+}
+.icon-no-gluten:before {
+  content: "\74";
+}
+.icon-no-cholesterol:before {
+  content: "\75";
+}
+.icon-low-calorie:before {
+  content: "\76";
+}
+.icon-arrow-right-small:before {
+  content: "\41";
+}
+.icon-arrow-left-small:before {
+  content: "\42";
+}
+.icon-pointer:before {
+  content: "\44";
+}
+.icon-wallet:before {
+  content: "\45";
+}
+.icon-delivery-truck:before {
+  content: "\77";
+}
+.icon-email:before {
+  content: "\78";
+}
+.icon-facebook:before {
+  content: "\79";
+}
+.icon-map-pointer:before {
+  content: "\7a";
+}
+.icon-open-wallet:before {
+  content: "\46";
+}
+.icon-shopping-cart-ok:before {
+  content: "\47";
+}
+.icon-contact:before {
+  content: "\6a";
+}
+.icon-time:before {
+  content: "\48";
+}
+.icon-si-bread:before {
+  content: "\49";
+}
+.icon-si-canned:before {
+  content: "\4a";
+}
+.icon-si-cereals:before {
+  content: "\4b";
+}
+.icon-si-cleaning:before {
+  content: "\4c";
+}
+.icon-si-coffee:before {
+  content: "\4d";
+}
+.icon-si-drink:before {
+  content: "\4e";
+}
+.icon-si-frozen:before {
+  content: "\4f";
+}
+.icon-si-fruit:before {
+  content: "\50";
+}
+.icon-si-health:before {
+  content: "\51";
+}
+.icon-si-household:before {
+  content: "\52";
+}
+.icon-si-meat-fish:before {
+  content: "\53";
+}
+.icon-si-offer:before {
+  content: "\54";
+}
+.icon-si-snack:before {
+  content: "\55";
+}
+.icon-close:before {
+  content: "\6e";
+}
+.icon-basket:before {
+  content: "\63";
+}
+.icon-my-account:before {
+  content: "\71";
+}

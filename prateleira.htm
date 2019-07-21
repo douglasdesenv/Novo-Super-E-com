@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super</title>
+    <link rel="icon" href="FeiraNova/img/favicon.png">
+	<link href="FeiraNova/css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://file.myfontastic.com/uG4fXJMAMmRAMkkEv3dZuP/icons.css" rel="stylesheet">
+	<link href="FeiraNova/css/icons.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <section class="header">
+            <a Class="logo-mob">
+                <img src="FeiraNova/img/logo_mob.png" title="Ir para a página principal">
+            </a>
+            <a role="button" class="btn-menu icon-user" data-menu="main-menu" data-menu-direction="right"></a>
+        </section>
+        <nav class="main-menu">
+            <div class="content">
+                <div class="header-main-menu">
+                    <a class="access-area icon-user">Entre ou cadastre-se</a>
+                    <div class="close-main-menu icon-arrow-right" data-menu-close></div>
+                </div>
+                <a href="" class="icon-home">Principal</a>
+                <a href="" class="icon-layers">Meus pedidos</a>
+                <a href="" class="icon-list">Lista de compras</a>
+                <a href="" class="icon-my-account">Minha conta</a>
+                <a href="" class="btn-verifica-cep-menu icon-pointer">Veja se atendemos sua região</a>
+                <a href="" class="btn-carrinho-menu icon-basket">Carrinho</a>
+            </div>
+        </nav>
+        <section class="navbar">
+            <div class="content">
+                <a href="index.htm">
+                    <img class="logo-desk" src="FeiraNova/img/logo.png" title="Ir para a página principal">
+                </a>
+                <a role="button" class="btn-menu-secoes icon-menu" data-menu="section-menu" data-menu-direction="left">Seções</a>
+                <div class="pnl-search">
+                    <input type="text" name="search" placeholder="Busque um produto" class="txt-search">
+                    <a href="" class="btn-search icon-magnifier"></a>
+                </div>
+                <a role="button" class="btn-trolley icon-basket" data-modal="mini-cart">
+                    <h3>Carrinho</h3>
+                    <span>R$ 195,66</span>
+                </a>
+            </div>
+        </section>
+        <nav class="section-navigation">
+            <div class="section-menu">
+                <div class="content">
+                    <div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-menu-close></a>
+                        <h3>Seções</h3>
+                    </div>
+                    <div class="content-section-menu">
+                        <a role="button" class="icon-si-offer" data-menu="sm1" data-menu-direction="left">Ofertas</a>
+                        <a role="button" class="icon-si-drink" data-menu="sm2" data-menu-direction="left">Bebidas & Leites</a>
+                        <a role="button" class="icon-si-meat-fish" data-menu="sm3" data-menu-direction="left">Carnes & Peixes</a>
+                        <a role="button" class="icon-si-cereals" data-menu="sm4" data-menu-direction="left">Cereais & Massas</a>
+                        <a role="button" class="icon-si-coffee" data-menu="sm5" data-menu-direction="left">Matinais & Doces</a>
+                        <a role="button" class="icon-si-canned" data-menu="sm6" data-menu-direction="left">Conservas & Temperos</a>
+                        <a role="button" class="icon-si-snack" data-menu="sm7" data-menu-direction="left">Biscoitos & Snacks</a>
+                        <a role="button" class="icon-si-bread" data-menu="sm8" data-menu-direction="left">Padaria</a>
+                        <a role="button" class="icon-si-frozen" data-menu="sm9" data-menu-direction="left">Laticínios & Congelados</a>
+                        <a role="button" class="icon-si-fruit" data-menu="sm10" data-menu-direction="left">Hortifruti</a>
+                        <a role="button" class="icon-si-health" data-menu="sm11" data-menu-direction="left">Higiene & Beleza</a>
+                        <a role="button" class="icon-si-cleaning" data-menu="sm12" data-menu-direction="left">Limpeza</a>
+                        <a role="button" class="icon-si-household" data-menu="sm13" data-menu-direction="left">Bazar & Pet</a>
+                    </div>
+                </div>
+                <div class="subsection-menu sm1">
+                    <div class="content">
+                        <div class="header-section-menu">
+                            <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                            <h3>Ofertas</h3>
+                        </div>
+                        <div class="content-subsection-menu">
+                            <a ID="btnSubsecao1" href="prateleira.htm">
+                                 <img src="FeiraNova/img/subsections/acougue.jpg" />
+                                <div class="subsection-title">Achocolatados</div>
+                            </a>
+                            <a href="">
+                                <img src="FeiraNova/img/subsections/bazar.jpg" />
+                                <div class="subsection-title">Açúcares e Adoçantes</div>
+                            </a>
+                            <a href="">
+                                
+                                <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                                <div class="subsection-title">Cafés e Chás</div>
+                            </a>
+                            <a href="">
+                                
+                                <img src="FeiraNova/img/subsections/cafe.jpg" />
+                                <div class="subsection-title">Cereais Matinais e Mingau</div>
+                            </a>
+                            <a href="">
+                                
+                                <img src="FeiraNova/img/subsections/doces.jpg" />
+                                <div class="subsection-title">Barras de Cereal e outros</div>
+                            </a>
+                            <a href="">
+                                
+                                <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                                <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                            </a>
+                            <a href="">
+                                
+                                <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                                <div class="subsection-title">Compotas e Geleias</div>
+                            </a>
+                            <a href="">
+                                <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                                <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm2">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Bebidas & Leites</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm3">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Carnes & Peixes</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm4">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Cereais & Massas</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href=""> 
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm5">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Conservas & Temperos</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                         <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm6">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Conservas & Temperos</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm7">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Biscoitos & Snacks</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm8">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Padaria</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm9">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Laticínios & Congelados</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+    
+                    </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm10">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Hortifruti</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm11">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Higiene & Beleza</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm12">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Limpeza</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="subsection-menu sm13">
+                    <div class="content"><div class="header-section-menu">
+                        <a role="button" class="icon-arrow-left" data-submenu-close></a>
+                        <h3>Bazar & Pet</h3>
+                    </div>
+                    <div class="content-subsection-menu">
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/acougue.jpg" />
+                            <div class="subsection-title">Achocolatados</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/bazar.jpg" />
+                            <div class="subsection-title">Açúcares e Adoçantes</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/biscoito.jpg" />
+                            <div class="subsection-title">Cafés e Chás</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/cafe.jpg" />
+                            <div class="subsection-title">Cereais Matinais e Mingau</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/doces.jpg" />
+                            <div class="subsection-title">Barras de Cereal e outros</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/embutidos.jpg" />
+                            <div class="subsection-title">Complemento Alimentar e leite em pó</div>
+                        </a>
+                        <a href="">
+                            
+                            <img src="FeiraNova/img/subsections/hortifruti.jpg" />
+                            <div class="subsection-title">Compotas e Geleias</div>
+                        </a>
+                        <a href="">
+                            <img src="FeiraNova/img/subsections/laticinios.jpg" />
+                            <div class="subsection-title">Ingredientes, Misturas para bolos e Fermentos</div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="mini-cart popup">
+            <div class="popup-header">
+                <h2>Últimos adicionados</h2>
+                <div class="popup-close icon-close" data-modal-close></div>
+            </div>
+            <div class="popup-content">
+                <div class="product-list">
+                    <div class="product-cell-lp">
+                        <div class="product-img-lp">
+                            <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+                        </div>
+                        <div class="product-content-lp">
+                            <label class="product-description-lp">Café 3 Corações Tradicional 250g</label>
+                            <div class="product-price-lp">
+                                <label class="default-value-lp">R$ 5,50</label>
+                                <label class="value-lp">R$ 4,50</label>
+                            </div>
+                            <div class="quantity-bar-lp">
+                                <a href="#" class="btn-minus-product">-</a>
+                                <input type="text" name="" class="txt-quantity" value="0">
+                                <a href="#" class="btn-plus-product">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-cell-lp">
+                        <div class="product-img-lp">
+                            <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+                        </div>
+                        <div class="product-content-lp">
+                            <label class="product-description-lp">Café em pó 3 Corações Seleções Tradicional Tradicional 250g</label>
+                            <div class="product-price-lp">
+                                <label class="value">R$ 4,50</label>
+                            </div>
+                            <div class="quantity-bar-lp">
+                                <a href="#" class="btn-minus-product">-</a>
+                                <input type="text" name="" class="txt-quantity" value="0">
+                                <a href="#" class="btn-plus-product">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-cell-lp">
+                        <div class="product-img-lp">
+                            <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+                        </div>
+                        <div class="product-content-lp">
+                            <label class="product-description-lp">Café em pó 3 Corações Tradicional 250g Café em pó 3 Corações Tradicional 250g</label>
+                            <div class="product-price-lp">
+                                <label class="value">R$ 4,50</label>
+                            </div>
+                            <div class="quantity-bar-lp">
+                                <a href="#" class="btn-minus-product">-</a>
+                                <input type="text" name="" class="txt-quantity" value="0">
+                                <a href="#" class="btn-plus-product">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-cell-lp">
+                        <div class="product-img-lp">
+                            <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+                        </div>
+                        <div class="product-content-lp">
+                            <label class="product-description-lp">Café em pó 3 Corações Seleções Tradicional Tradicional 250g</label>
+                            <div class="product-price-lp">
+                                <label class="value">R$ 4,50</label>
+                            </div>
+                            <div class="quantity-bar-lp">
+                                <a href="#" class="btn-minus-product">-</a>
+                                <input type="text" name="" class="txt-quantity" value="0">
+                                <a href="#" class="btn-plus-product">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-cell-lp">
+                        <div class="product-img-lp">
+                            <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+                        </div>
+                        <div class="product-content-lp">
+                            <label class="product-description-lp">Café em pó 3 Corações Seleções Tradicional Tradicional 250g</label>
+                            <div class="product-price-lp">
+                                <label class="value">R$ 4,50</label>
+                            </div>
+                            <div class="quantity-bar-lp">
+                                <a href="#" class="btn-minus-product">-</a>
+                                <input type="text" name="" class="txt-quantity" value="0">
+                                <a href="#" class="btn-plus-product">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-footer">
+                <a href="carrinho.htm" ID="btnVerCarrinho" Class="btn-view-cart">Ver carrinho</a>
+                <label class="mini-cart-total">Total: R$ 257,00</label>
+            </div>
+        </div>
+        <div class="mask"></div>
+    </header>
+    <article class="product-section">
+	    <div class="content">
+		    <section class="product-grid">
+			    <div class="collection-title">Café Orgânico</div>
+			    <div class="collection">
+				    <div class="product-cell" role="button">
+					    <div class="product-img" data-modal="product-detail">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Café" data-tootip-direction="left" data-tootip-position="start" data-tootip-text="Usando left e start por aqui.">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="default-value">R$ 5,50</label>
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" data-tootip-direction="left" data-tootip-position="center">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="default-value">R$ 5,50</label>
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Usando left e end por aqui." data-tootip-direction="left" data-tootip-position="end">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="default-value">R$ 5,50</label>
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Usando top e start por aqui." data-tootip-direction="top" data-tootip-position="start">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="default-value">R$ 5,50</label>
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Usando top e center por aqui." data-tootip-direction="top" data-tootip-position="center">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="default-value">R$ 5,50</label>
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Usando top e end por aqui." data-tootip-direction="top" data-tootip-position="end">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó Bom Dia Extra Forte 500g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Usando right e start por aqui." data-tootip-direction="right" data-tootip-position="start">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Usando right e center por aqui." data-tootip-direction="right" data-tootip-position="center">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó Bom Dia Extra Forte 500g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="gridbar"></div>
+			    </div>
+			    <div class="collection-title">Café Solúvel</div>
+			    <div class="collection">
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe3.jpg" title="Usando right e end por aqui." data-tootip-direction="right" data-tootip-position="end">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe2.jpg" title="Usando bottom e start por aqui." data-tootip-direction="bottom" data-tootip-position="start">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="default-value">R$ 5,50</label>
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó Bom Dia Extra Forte 500g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe4.jpg" title="Usando bottom e center por aqui." data-tootip-direction="bottom" data-tootip-position="center">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="default-value">R$ 5,50</label>
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/vinho1.jpg" title="Usando bottom e end por aqui." data-tootip-direction="bottom" data-tootip-position="end">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó Bom Dia Extra Forte 500g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="gridbar"></div>
+			    </div>
+			    <div class="collection-title">Café Extra Forte</div>
+			    <div class="collection">
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó Bom Dia Extra Forte 500g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó Bom Dia Extra Forte 500g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="gridbar"></div>
+			    </div>
+			    <div class="collection-title">Café em Capsulas</div>
+			    <div class="collection">
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+						    <div class="flag-area">
+							    <img src="FeiraNova/img/country_flags/gb.png">
+						    </div>
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="default-value">R$ 5,50</label>
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó Bom Dia Extra Forte 500g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img">
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó 3 Corações Tradicional 250g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="product-cell">
+					    <div class="product-img"> <!-- class="quick-offer-layout" 
+						    <div class="quick-offer-flag icon-quick-offer">OFERTA RELÂMPAGO</div>
+						    <div class="quick-offer-timer"></div>
+						    <div class="offer-flag2">LEVE 3 </br> PAGUE 2</div>
+						    <div class="offer-flag3">LEVE 3 </br>E GANHE </br>UM BRINDE</div>
+						    <div class="offer-flag1">- 20%</div>
+						    <div class="offer-flag1">OFERTA</div>
+						    <div class="new-flag">NOVO</div>
+						    <div class="flag-area">
+							    <img src="FeiraNova/img/country_flags/gb.png">
+							    <div class="flag-food-info icon-no-cholesterol"></div>
+							    <div class="flag-food-info icon-no-sugar"></div>
+							    <div class="flag-food-info icon-no-gluten"></div>
+							    <div class="flag-food-info icon-no-lactose"></div>
+							    <div class="flag-food-info icon-organic"></div>
+							    <div class="flag-food-info icon-low-calorie"></div>
+						    </div>-->
+						    <div class="btn-add-list icon-shopping-list"></div>
+						    <img src="FeiraNova/img/products/cafe1.jpg" title="Café">
+					    </div>
+					    <div class="product-content">
+						    <div class="product-price">
+							    <label class="value">R$ 4,50</label>
+						    </div>
+						    <label class="product-description">Café em pó Bom Dia Extra Forte 500g</label>
+						    <div class="quantity-bar">
+							    <a href="#" class="btn-minus-product">-</a>
+							    <input type="text" name="" class="txt-quantity" value="0">
+							    <a href="#" class="btn-plus-product">+</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="gridbar"></div>
+			    </div>
+		    </section>
+		    <div class="product-detail popup">
+			    <div class="popup-header">
+				    <h2>Produto</h2>
+				    <div class="popup-close icon-close" data-modal-close></div>
+			    </div>
+			    <div class="popup-content">
+				    <div class="product-detail-img">
+	 				    <img src="FeiraNova/img/products/cafe1_big.jpg" data-zoom>
+	 				    <div class="product-detail-gallery" data-zoom-gallery>
+	 				        <img src="FeiraNova/img/products/cafe1_big.jpg">
+	 				        <img src="FeiraNova/img/products/leite_big.jpg">
+	 				        <img src="FeiraNova/img/products/biscoito_big.jpg">
+	 				        <img src="FeiraNova/img/products/aveia_big.jpg">
+	 				    </div>
+				    </div>
+
+				    <div class="product-detail-txt">
+					    <h3>Café em pó Bom Dia Extra Forte 500g</h3>
+					    <p>Os Cafés Especiais Melitta® são certificados pelo programa Cafés Sustentáveis do Brasil, da Abic, e cultivados com práticas responsáveis que preservam o meio ambiente, respeitam a comunidade e valorizam o trabalho dos produtores locais.</p>
+					    <ul>
+						    <li>Seção: Matinais & Doces</li>
+						    <li>Subseção: Cafés e Chás</li>
+						    <li>Marca: Pilão</li>
+						    <li>Medida: 500g</li>
+					    </ul>	
+					    <p class="secondary-info">Atenção: As informações nutricionais contidas na embalagem podem estar desatualizadas. Para maiores detalhes, consulte o site do fabricante.</p>
+					    <p class="secondary-info">Ref: 203319</p>
+				    </div>
+    				
+			    </div>
+			    <div class="popup-footer">
+				    <div class="quantity-bar">
+					    <a href="#" class="btn-minus-product">-</a>
+					    <input type="text" name="" class="txt-quantity" value="0">
+					    <a href="#" class="btn-plus-product">+</a>
+				    </div>
+				    <div class="product-price-pd">
+					    <label class="default-value-pd">R$ 5,50</label>
+					    <label class="value-pd">R$ 4,50</label>
+				    </div>
+			    </div>
+		    </div>
+        </div>
+    </article>
+    <footer>
+        <section class="footer-1">
+            <div class="content"> 
+                <div class="box-info">
+                    <h3 class="icon-delivery-truck">
+                        Entrega em domicílio<span>(Delivery)</span>
+                    </h3>
+                    <p>Nós separamos e embalamos. Você recebe no endereço e horário escolhidos.</p>
+                    <p><b>Locais de atendimento:</b> Irajá, Vila da Penha, Vista Alegre, Vicente de Carvalho, Brás de Pina e Jardim 25 de Agosto.</p>
+                    <p><b>Taxa de entrega:</b> R$ 12,00</p>
+                </div>
+                <div class="box-info">
+                    <h3 class="icon-map-pointer">
+                        Retirada na loja<span>(Drive-thru)</span>
+                    </h3>
+                    <p>Nós separamos e embalamos. Você busca na loja de Irajá no horário escolhido.</p>
+                    <p><b>Locais de atendimento:</b> Todo o Rio de Janeiro com retirada na Loja de Irajá (Rua Andre Filho, 13 Loja C - Irajá - RJ)</p>
+                    <p><b>Taxa de retirada:</b> Grátis</p>
+                </div>
+                <div class="box-info">
+                    <h3 class="icon-open-wallet">Valores e taxas</h3>
+                    <p>O valor mínimo de compra para cada pedido é de: <b>R$ 50,00</b> em produtos.</p>
+                    <p>Entrega grátis nas compras acima de: R$ 300,00.</p>
+                </div>
+                <div class="box-info">
+                    <h3 class="icon-shopping-cart-ok">Horários de entrega</h3>
+                    <p>Nossa entrega é realizada das 8h às 20h. Durante a finalização da compra, você poderá escolher a janela de horário mais conveniente.</p>
+                    <p><b>Importante:</b> No ato da entrega será obrigatório a apresentação da identidade e o cartão usado na compra.</p>
+                </div>
+            </div>
+        </section>
+        <section class="footer-2">
+            <div class="content"> 
+                <div class="box-payment-forms">
+                    <h3>Formas de pagamento</h3>
+                    <div class="row-forms">
+                        <div class="group-forms">
+                            <label>Cartão de crédito</label>
+                            <div class="group-cards">
+                                <img src="FeiraNova/img/payment_forms/master_card.png">
+                                <img src="FeiraNova/img/payment_forms/visa.png">
+                                <img src="FeiraNova/img/payment_forms/american_express.png">
+                                <img src="FeiraNova/img/payment_forms/elo.png">
+                                <img src="FeiraNova/img/payment_forms/diners.png">
+                                <img src="FeiraNova/img/payment_forms/discover.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-forms">
+                        <div class="group-forms">
+                            <label>Cartão de débito</label>
+                            <div class="group-cards">
+                                <img src="FeiraNova/img/payment_forms/visa_electron.png">
+                                <img src="FeiraNova/img/payment_forms/maestro.png">
+                            </div>
+                        </div>
+                        <div class="group-forms">
+                            <label>Cartão alimentação</label>
+                            <div class="group-cards">
+                                <img src="FeiraNova/img/payment_forms/alelo.png">
+                                <img src="FeiraNova/img/payment_forms/vr_alimentacao.png">
+                                <img src="FeiraNova/img/payment_forms/sodexo.png">
+                            </div>
+                        </div>
+                        <div class="group-forms">	
+                            <label>Dinheiro</label>
+                            <div class="group-cards">
+                                <img src="FeiraNova/img/payment_forms/dinheiro.png">
+                            </div>
+                        </div>
+                    </div>
+                    <p>Obs.: Pagamentos em dinheiro e cartão alimentação apenas no ato da entrega.</p>
+                </div>
+                <div class="box-contact">
+                    <h3>Atendimento</h3>
+                    <ul>
+                        <li class="icon-contact">
+                            <span>(21) 2471-2195 <br>
+                            (21) 97157-5394</span>
+                        </li>
+                        <li class="icon-email">
+                            <span>atendimento@feiranovaemcasa.com.br</span>
+                        </li>
+                        <li class="icon-time">
+                            <span>Horários de atendimento
+                            <p>De segunda a sexta das 8h às 18h. <br>
+                                Aos sábados das 8h às 12h.</p></span>                     
+                        </li>
+                        <li class="icon-facebook">
+                            <span>Curta nossa página</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-menu-inst">
+                    <h3>Institucional</h3>
+                    <nav class="menu-institucional">
+                        <a href="">Passo a passo para comprar</a>
+                        <a href="">Saiba mais sobre a entrega</a>
+                        <a href="">Perguntas Frequentes</a>
+                        <a href="">Sobre o Feira Nova</a>
+                        <a href="">Ações de sustentabilidade</a>
+                        <a href="">Politica de troca, devolução e cancelamento</a>
+                        <a href="">Política de privacidade</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="footer-3">
+            <div class="content">
+                <div class="box-company">
+                    <img src="FeiraNova/img/logo.png">
+                    <h4>Feira Nova em Casa</h4>
+                    <p>	CNPJ: 36.525.319/0011-50<br>
+                        Inscrição Estadual: 87.214.320</p>
+    
+                    <h4>Endereço de atendimento:</h4>
+                    <p>	R. André Filho, 13, loja C - Irajá<br>
+                        Rio de Janeiro - RJ. CEP: 21230-340</p> 
+                    <p>O horário de funcionamento da loja física é de 8h às 20h.</p>
+                </div>
+                <div class="box-legal">
+                    <div class="info-rules">
+                        <h4>Importante</h4>
+                        <ul>
+                            <li>1. O valor mínimo para cada pedido é de R$ 50 em produtos;</li>
+                            <li>2. O cartão de crédito só é processado no dia da entrega e não quando o número do cartão é utilizado no site. Mediante a esse fato, podem ocorrer duas mensagens do cartão, mas somente será realizada uma cobrança;</li>
+                            <li>3. Preços, ofertas e condições exclusivos para a internet e válidos durante o dia vigente, podendo sofrer alterações sem prévia notificação;</li>
+                            <li>4. Os produtos não são vendidos por atacado sendo limitada a venda por cliente uma determinada quantidade do produto vendido;</li>
+                            <li>5. Proibida a venda de bebidas alcoólicas para menores de 18 anos, conforme a Lei n.º 8069/90, art. 81, inciso II (Estatuto da Criança e Adolescente);</li>
+                            <li>6. Esse site está de acordo com as regras e exigências do <a href="http://www.procon.rj.gov.br/" target="_blank">PROCON</a>, serviço de defesa do consumidor.</li>
+                        </ul>
+                        <div class="footer-bottom">
+                            <div class="box-security">	
+                                <label>Segurança e certificação</label>
+                                <div class="group-logo">
+                                    <img src="FeiraNova/img/ssl.png">
+                                    <img src="FeiraNova/img/site_blindado.png">
+                                </div>
+                            </div>
+                            <div class="box-author">	
+                                <label>Desenvolvimento</label>
+                                <div class="group-logo">
+                                    <img src="FeiraNova/img/logo_bagarote.png">
+                                </div>
+                            </div>
+                            <div class="box-copyright">
+                                <label>Copyright © 2017 Feira Nova. Todos os direitos reservados.</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="FeiraNova/js/master-page.js"></script>
+    <script type="text/javascript" src="FeiraNova/js/tootip-component.js"></script>
+    <script type="text/javascript" src="FeiraNova/js/zoom-component.js"></script>
+    <script type="text/javascript" src="FeiraNova/js/product-section-page.js"></script>
+</body>
+</html>
